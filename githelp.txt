@@ -1,0 +1,35 @@
+git config --global user.name "coder-pig"
+git congif --global user.email "779878443@qq.com"
+
+
+git init
+
+
+ git add readme.txt
+ git commit -m "Wrote a readme file"
+
+
+git status
+
+git log
+
+git checkout src/com/jay/example/testforgit/MainActivity.java
+
+
+git reset HEAD src/com/jay/example/testforgit/MainActivity.java
+git checkout src/com/jay/example/testforgit/MainActivity.java
+
+
+我们回到前一个提交的版本吧，依次键入下述指令：
+ git reset --hard HEAD
+ git reset --hard HEAD^
+ git log
+
+git reset --hard ad2080c
+
+git reflog
+
+git reset --hard ad2080c
+
+
+
