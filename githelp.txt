@@ -1,5 +1,5 @@
 git config --global user.name "coder-pig"
-git congif --global user.email "779878443@qq.com"
+git congif --global user.email "***@qq.com"
 
 
 git init
